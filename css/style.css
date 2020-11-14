@@ -45,6 +45,11 @@ img{
     width: 100%;
 }
 
+.hidden{
+    visibility: hidden;
+    height: 0;
+}
+
 /*NAVBAR*/
 .navbar{
     background-color: var(--primary-color);
@@ -806,7 +811,7 @@ code, pre{
 
 
 /*Mobile*/
-@media (max-width: 500px){
+@media (max-width: 300px){
     .navbar{
         height: 110px;
     }
